@@ -4,8 +4,10 @@ html {
 
 body {
     background-image: repeating-linear-gradient(#FC5E55, #FA4083);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #fff;
+    font-size: 1.125rem;
+    /* font-weight: 700; */
 
 }
 
@@ -66,6 +68,7 @@ main {
 
 .hero-box1 {
     flex: 2;
+    padding-right: 100px;
 }
 
 
@@ -74,5 +77,12 @@ main {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
 }
