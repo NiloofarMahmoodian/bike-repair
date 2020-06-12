@@ -108,3 +108,14 @@ p {
     margin: 10px 30px 20px 30px;
 
 }
+
+.cards i {
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.cards a {
+    color: #fff;
+    text-decoration: none;
+
+}
