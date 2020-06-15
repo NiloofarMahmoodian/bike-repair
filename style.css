@@ -32,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #fff;
 
 }
 
@@ -152,4 +153,11 @@ a.btn-book {
 nav a.btn-nav {
     margin-left: 30px;
 
+}
+
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid #fff;
 }
