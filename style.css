@@ -1,194 +1,191 @@
+html {
+  background-image: repeating-linear-gradient(#fc5e55, #fa4083);
+}
+
 body {
-    background-image: repeating-linear-gradient(#fc5e55, #fa4083);
-    font-family: "Playfair Display", serif;
-    color: #fff;
-    font-size: 1.125rem;
-    /* font-weight: 700; */
+  background-image: url(img/image-lion-background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 1.125rem;
+  /* font-weight: 700; */
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .container {
-    width: 1024px;
-    min-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
 }
 
 main {
-    min-height: 300px;
-    display: flex;
-    align-items: center;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .cards {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .card1 {
-    background-image: url(img/image-background-card1.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 250px;
-    width: 30%;
+  background-image: url(img/image-background-card1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
 }
 
 .card2 {
-    background-image: url(img/image-background-card2.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 250px;
-    width: 30%;
+  background-image: url(img/image-background-card2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
 }
 
 .card3 {
-    background-image: url(img/image-background-card3.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 250px;
-    width: 30%;
+  background-image: url(img/image-background-card3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
 }
 
 .card1,
 .card2,
 .card3 {
-    padding: 30px 30px 20px 30px;
-    box-sizing: border-box;
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
 }
 
 .hero-box1 {
-    flex: 2;
-    padding-right: 100px;
+  flex: 2;
+  padding-right: 100px;
 }
 
 .hero-box2 {
-    flex: 1;
+  flex: 1;
 }
 
 h1 {
-    font-size: 3.25rem;
-    font-family: "Playfair Display", serif;
-    margin-bottom: 1rem;
+  font-size: 3.25rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: 2rem;
-    font-family: "Playfair Display", serif;
-    margin-top: 20px;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-top: 20px;
 }
 
 p {
-    line-height: 1.5rem;
-    margin-bottom: 0.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .cards p {
-    font-size: 0.85rem;
-    line-height: 1.2rem;
-    margin-top: 10px;
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin-top: 10px;
 }
 
 .cards i {
-    font-size: 80px;
-    padding-top: 30px;
+  font-size: 80px;
+  padding-top: 30px;
 }
 
 .cards a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .btn-book {
-    background-color: #fff;
-    color: #fa4083;
-    font-family: "Playfair Display", serif;
-    padding: 11px 25px;
-    border-radius: 3px;
-    box-shadow: 0px 2px 2px rgba(197, 197, 197, 0.228);
+  background-color: #fff;
+  color: #fa4083;
+  font-family: "Playfair Display", serif;
+  padding: 11px 25px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 2px rgba(197, 197, 197, 0.228);
 }
 
 .btn-book:hover {
-    background-color: #143068;
-    color: #fff;
-    transition: 0.15s;
+  background-color: #143068;
+  color: #fff;
+  transition: 0.15s;
 }
 
 a.btn-book {
-    display: inline-block;
-    margin-top: 20px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .btn-nav {
-    display: inline-block;
-    padding: 11px 25px;
-    position: relative;
-
+  display: inline-block;
+  padding: 11px 25px;
+  position: relative;
 }
 
 nav a.btn-nav {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .testimonials {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .tbox {
-    width: 47%;
-    padding: 50px;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    margin-top: 50px;
+  width: 47%;
+  padding: 50px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin-top: 50px;
 }
 
 .tbox p:last-of-type {
-    font-size: 0.8rem;
-    padding-left: 30px;
+  font-size: 0.8rem;
+  padding-left: 30px;
 }
-
-
-
 
 .dropdown {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    padding: 20px;
-    text-align: center;
-
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+  text-align: center;
 }
-
 
 .btn-nav:hover .dropdown {
-    display: block;
+  display: block;
 }
-
 
 .dropdown .btn-nav {
-    width: 120px;
-    background-color: #fff;
-
+  width: 120px;
+  background-color: #fff;
 }
 
-
 .dropdown .btn-nav a {
-
-    color: #fa4083;
+  color: #fa4083;
 }
