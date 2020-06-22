@@ -65,12 +65,12 @@
 
         <form action="mail.php" method="POST">
           <div class="inputwrapper">
-            <label for="name">First Name</label>
+            <label for="name" class="newline">First Name</label>
             <input type="text" name="name" id="name" placeholder="First Name" />
           </div>
 
           <div class="inputwrapper">
-            <label for="email">Email</label>
+            <label for="email" class="newline">Email</label>
             <input
               type="email"
               name="email"
@@ -85,7 +85,7 @@
               id="message"
               cols="100"
               rows="5"
-              placeholder="Let os know what you think!"
+              placeholder="Let us know what you think!"
             ></textarea>
           </div>
 
@@ -103,13 +103,22 @@
           <p>How would you like to be contacted?</p>
           <div class="inputwrapper">
             <input type="radio" name="contact-pref" id="Phone" value="Phone" />
-            <label for="phone">Phone</label>
+            <label for="phone" class="margin-right-a">Phone</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;
 
             <input type="radio" name="contact-pref" id="Email" value="Email" />
             <label for="email">Email</label>
           </div>
 
-          <input type="submit" value="Let's talk!" />
+          <div class="inputwrapper">
+            <select name="county" id="county">
+              <option value="Limerick">Limerick</option>
+              <option value="Galway">Galway</option>
+              <option value="Dublin">Dublin</option>
+            </select>
+          </div>
+
+          <input type="submit" class="btn-book" value="Let's talk!" />
         </form>
       </div>
       <div class="cards">
